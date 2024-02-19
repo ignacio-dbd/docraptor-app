@@ -18,5 +18,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 //Route::get('/tv-display',TvDisplayController::class);
-Route::get('/strategy-report', StrategyReportController::class);
+Route::get('/strategy-report', [StrategyReportController::class, 'strategyReport']);
 

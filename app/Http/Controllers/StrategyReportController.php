@@ -6,14 +6,14 @@ use Illuminate\Http\Request;
 use DocRaptor;
 class StrategyReportController extends Controller
 {
-    //
-    public function __invoke(Request $request)
+    public function __invoke()
     {
-        //dd('hello');
+
         $docraptor = new DocRaptor\DocApi();
         $docraptor->getConfig()->setUsername(env('DOCRAPTOR_API_KEY'));
 
         $doc = new DocRaptor\Doc();
+
         $doc->setTest(true); // test documents are free but watermarked
 
         $documentContent = view('documents.strategy-report', [])->render();
@@ -48,8 +48,6 @@ class StrategyReportController extends Controller
     }
     public function strategyReport(){
 
-        dd('hi');
-
         $docraptor = new DocRaptor\DocApi();
         $docraptor->getConfig()->setUsername(env('DOCRAPTOR_API_KEY'));
 
@@ -79,7 +77,7 @@ class StrategyReportController extends Controller
         header('Cache-Control: must-revalidate, post-check=0, pre-check=0');
         header('Pragma: public');
         header('Content-Length: ' . strlen($create_response));
-        ob_clean();
+        if (ob_get_length()) ob_clean();
         flush();
         echo($create_response);
         exit;

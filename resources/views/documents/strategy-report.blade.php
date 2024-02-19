@@ -100,7 +100,102 @@
         font-size: 14px;
     }
 </style>
-<body>
-Hola
+<div class="page" id="front-cover">
+    @include('documents.includes.header-front-cover', ['clientName' => 'Clarence Boddicker'])
+
+    <a href="#introduction" class="btn get-started">Get Started &rarr;</a>
+
+</div>
+
+<!-- INTRODUCTION -->
+<div class="page" id="introduction">
+
+    @include('documents.includes.header', ['activeLink' => 'introduction'])
+
+    <h1>Your journey</h1>
+
+    @include('documents.includes.footer', ['previousLink' => '#front-cover', 'nextLink' => '#the-my-wealth-service'])
+
+</div>
+
+<!-- THE MY WEALTH SERVICE -->
+<div class="page" id="the-my-wealth-service">
+
+    @include('documents.includes.header', ['activeLink' => 'introduction'])
+
+    <h1>The my wealth service</h1>
+
+    @include('documents.includes.footer', ['previousLink' => '#introduction', 'nextLink' => '#meet-your-team'])
+</div>
+
+<!-- MEET YOUR TEAM -->
+<div class="page" id="meet-your-team">
+
+    @include('documents.includes.header', ['activeLink' => 'introduction'])
+
+    <h1>Meet your team</h1>
+
+    @include('documents.includes.footer', ['previousLink' => '#introduction', 'nextLink' => '#key-considerations'])
+</div>
+
+<!-- KEY CONSIDERATIONS -->
+<div class="page" id="key-considerations">
+
+    @include('documents.includes.header', ['activeLink' => 'introduction'])
+
+    <h1>Key considerations</h1>
+
+    @include('documents.includes.footer', ['previousLink' => '#meet-your-team', 'nextLink' => '#a-holistic-approach'])
+</div>
+
+<!-- A HOLISTIC APPROACH -->
+<div class="page" id="a-holistic-approach">
+
+    @include('documents.includes.header', ['activeLink' => 'introduction'])
+
+    <h1>A holistic approach</h1>
+
+    @include('documents.includes.footer', ['previousLink' => '#key-considerations', 'nextLink' => '#your-objectives'])
+</div>
+
+
+<!-- YOUR OBJECTIVES -->
+<div class="page" id="your-objectives">
+
+    @include('documents.includes.header', ['activeLink' => 'your-objectives'])
+
+    @include('documents.includes.footer', ['previousLink' => '#a-holistic-approach', 'nextLink' => '#your-objectives2'])
+</div>
+<div class="page" id="your-objectives2">
+
+    @include('documents.includes.header', ['activeLink' => 'your-objectives'])
+
+    <h1>Your objectives</h1>
+
+    @include('documents.includes.footer', ['previousLink' => '#your-objectives', 'nextLink' => '#your-finances'])
+</div>
+
+<!-- YOUR FINANCES -->
+<div class="page" id="your-finances">
+
+    @include('documents.includes.header', ['activeLink' => 'your-objectives'])
+
+    <h1>Your finances</h1>
+
+    <div class="page-number"></div>
+    @include('documents.includes.footer', ['previousLink' => '#your-objectives', 'nextLink' => '#'])
+</div>
+
+<!-- YOUR STRATEGY -->
+<div class="page" id="your-strategy">
+
+    @include('documents.includes.header', ['activeLink' => 'your-strategy'])
+
+    <h1>Your finances</h1>
+
+    <div class="page-number"></div>
+    @include('documents.includes.footer', ['previousLink' => '#your-objectives', 'nextLink' => '#'])
+</div>
+
 </body>
 </html>
