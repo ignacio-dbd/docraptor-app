@@ -52,7 +52,7 @@
     .page {
         page-break-after: always;
         margin: 0;
-        padding: 10mm 16mm;
+        padding: 8mm 16mm;
     }
 
     html {
@@ -77,9 +77,32 @@
         font-family: 'Poppins', sans-serif;
         font-weight: 300;
         font-size: 42px;
-        margin-top: 50px;
     }
 
+    h3.line-header {
+        margin-top: 15px;
+        margin-right: 5px;
+        display: inline;
+        z-index: 100;
+        float: left;
+        clear: left;
+        font-weight:bold;
+        font-size:18px
+    }
+
+    h3.line-header::after {
+        position:absolute;
+        content:'\00a0';
+        width: 90%;
+        margin-top: -12px;
+        margin-left: 5px;
+        border-bottom: 1px solid #7574BD;
+        z-index: 0;
+    }
+
+    h4 { font-size:14px; }
+    p { font-size: 13px; line-height: 16px; }
+    p.small { font-size: 11px; line-height: 14px; }
 </style>
 
 
@@ -114,6 +137,11 @@
 
     <h1>Your journey</h1>
 
+    <div class="flex">
+        <div class="w-1/2">LEFT COL</div>
+        <div class="w-1/2">RIGHT COL</div>
+    </div>
+
     @include('documents.includes.footer', ['previousLink' => '#front-cover', 'nextLink' => '#the-my-wealth-service'])
 
 </div>
@@ -124,6 +152,15 @@
     @include('documents.includes.header', ['activeLink' => 'introduction'])
 
     <h1>The my wealth service</h1>
+    <div class="flex">
+        <div class="w-1/3">
+
+
+
+        </div>
+        <div class="w-1/3">COL2</div>
+        <div class="w-1/3">COL3</div>
+    </div>
 
     @include('documents.includes.footer', ['previousLink' => '#introduction', 'nextLink' => '#meet-your-team'])
 </div>
@@ -170,7 +207,100 @@
 
     @include('documents.includes.header', ['activeLink' => 'your-objectives'])
 
-    <h1>Your objectives</h1>
+    <div class="flex mt-8">
+        <div class="w-1/3 mr-5">
+            <h1>Your objectives</h1>
+        </div>
+        <div class="w-1/2 pt-3 pl-8">
+            <p class="pr-5">It is important to design and implement an investment strategy that reflects your personal circumstances, needs, and priorities. As a result of our discussions, here are your agreed objectives:</p>
+        </div>
+    </div>
+
+    <div class="relative w-full mt-4">
+        <h3 class="line-header">Primary</h3>
+    </div>
+
+    <div class="clear-both"></div>
+
+    <div class="flex mt-5">
+        <div class="w-1/3">
+            <div class="flex objective">
+                <div class="objective-icon flex-shrink-0">
+                    <img src="https://d3a6n7gvbr88rj.cloudfront.net/adviser-hub/strategy-report/icon-legacy-planning.svg" class="w-12">
+                </div>
+                <div class="objective-text ml-4 pr-8">
+                    <h4 class="font-bold text-white">Legacy Planning</h4>
+                    <div class="mt-2 text-sm">
+                        <p class="small">Based on what we spoke about, you wish to ensure your assets will be passed on in the event of your death. This is to ensure that the assets you have built up over your lifetime can be used by your children when you die.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-1/3">
+            <div class="flex objective">
+                <div class="objective-icon flex-shrink-0">
+                    <img src="https://d3a6n7gvbr88rj.cloudfront.net/adviser-hub/strategy-report/icon-tax-efficiency.svg" class="w-12">
+                </div>
+                <div class="objective-text ml-4 pr-8">
+                    <h4 class="font-bold text-white">Tax efficiency</h4>
+                    <div class="mt-2 text-sm">
+                        <p class="small">Based on our discussions, you wish to reduce the amount of tax you pay on your existing savings/investments. This is to ensure that more of the assets that you have built up during your lifetime can be passed onto your chosen beneficiary(ies) when you die.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-1/3">
+            <div class="flex objective">
+                <div class="objective-icon flex-shrink-0">
+                    <img src="https://d3a6n7gvbr88rj.cloudfront.net/adviser-hub/strategy-report/icon-cash.svg" class="w-12">
+                </div>
+                <div class="objective-text ml-4 pr-8">
+                    <h4 class="font-bold text-white">Short-term cash needs</h4>
+                    <div class="mt-2 text-sm">
+                        <p class="small">You’ve indicated that it is important for you to retain access to a proportion of your capital. This covers any expenditure that cannot be met from income over the next XX years.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="clear-both"></div>
+
+    <div class="relative w-full pt-2">
+        <h3 class="line-header">Secondary</h3>
+    </div>
+
+    <div class="clear-both"></div>
+
+    <div class="flex mt-6">
+        <div class="w-1/3">
+            <div class="flex objective">
+                <div class="objective-icon flex-shrink-0">
+                    <img src="https://d3a6n7gvbr88rj.cloudfront.net/adviser-hub/strategy-report/icon-income.svg" class="w-12">
+                </div>
+                <div class="objective-text ml-4 pr-8">
+                    <h4 class="font-bold text-white">Ensure income needs are met</h4>
+                    <div class="mt-2 text-sm">
+                        <p class="small">You’re looking to obtain a regular income of £50,000 per annum to help your children and/or grandchildren with things like university and school fees etc.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-1/3">
+            <div class="flex objective">
+                <div class="objective-icon flex-shrink-0">
+                    <img src="https://d3a6n7gvbr88rj.cloudfront.net/adviser-hub/strategy-report/icon-growth.svg" class="w-12">
+                </div>
+                <div class="objective-text ml-4 pr-8">
+                    <h4 class="font-bold text-white">Capital growth</h4>
+                    <div class="mt-2 text-sm">
+                        <p class="small">You’re looking to grow the value of your capital, so you can retire earlier and continue to afford more holidays.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     @include('documents.includes.footer', ['previousLink' => '#your-objectives', 'nextLink' => '#your-finances'])
 </div>
@@ -183,7 +313,7 @@
     <h1>Your finances</h1>
 
     <div class="page-number"></div>
-    @include('documents.includes.footer', ['previousLink' => '#your-objectives', 'nextLink' => '#'])
+    @include('documents.includes.footer', ['previousLink' => '#your-objectives2', 'nextLink' => 'your-strategy'])
 </div>
 
 <!-- YOUR STRATEGY -->
@@ -194,7 +324,7 @@
     <h1>Your finances</h1>
 
     <div class="page-number"></div>
-    @include('documents.includes.footer', ['previousLink' => '#your-objectives', 'nextLink' => '#'])
+    @include('documents.includes.footer', ['previousLink' => '#your-finances', 'nextLink' => '#'])
 </div>
 
 </body>

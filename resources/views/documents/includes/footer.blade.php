@@ -1,25 +1,25 @@
 <style>
     .page-number {
         border-radius: 50%;
-        width: 34px;
-        height: 34px;
-        padding: 7px 10px 10px 10px;
+        width: 30px;
+        height: 30px;
+        padding: 6px 10px 10px 10px;
         border-width: 1px;
         border-color:rgba(231, 54, 213, 0.5);
         border-style: solid;
         color: #FFFFFF;
         text-align: center;
         vertical-align: middle;
-        font-size: 12px !important;
+        font-size: 10px !important;
         position: absolute;
-        bottom: 10mm;
+        bottom: 8mm;
         left: 16mm;
         content: counter(page);
     }
 
     .previous-next-links {
         position: absolute;
-        bottom: 10mm;
+        bottom: 8mm;
         right: 16mm;
     }
 
