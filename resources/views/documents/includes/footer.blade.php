@@ -39,12 +39,12 @@
 
 <div class="previous-next-links">
     <a href="{{ $previousLink }}">
-        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="34" viewBox="0 0 19 34" fill="none">
+        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="23" viewBox="0 0 19 34" fill="none">
             <path d="M18 1L2 17L18 33" stroke="white" stroke-width="2" stroke-linecap="round"/>
         </svg>
     </a>
     <a href="{{ $nextLink }}">
-        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="34" viewBox="0 0 19 34" fill="none">
+        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="23" viewBox="0 0 19 34" fill="none">
             <path d="M1.5 33L17.5 17L1.5 1" stroke="white" stroke-width="2" stroke-linecap="round"/>
         </svg>
     </a>

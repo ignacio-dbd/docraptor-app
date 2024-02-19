@@ -77,7 +77,6 @@
         font-family: 'Poppins', sans-serif;
         font-weight: 300;
         font-size: 42px;
-        line-height: 54px;
     }
 
     h3.line-header {
@@ -104,9 +103,6 @@
     h4 { font-size:14px; }
     p { font-size: 13px; line-height: 16px; }
     p.small { font-size: 11px; line-height: 14px; }
-    .first-description {
-        line-height: 20px;
-    }
 </style>
 
 
@@ -325,20 +321,14 @@
 
     @include('documents.includes.header', ['activeLink' => 'your-strategy'])
 
+    <h1>Your cashflow forecast</h1>
+
     <div class="flex">
         <div class="w-1/2">
-            <div class="flex mt-20">
-                <div class="w-2/3">
-                    <h1 class="mb-8">Your cashflow forecast</h1>
-                    <p class="first-description">
-                        We have created a cashflow model to forecast your future finances over the long-term. It shows you how much money you could have in the future and whether you are on track to achieve your goals. We have analysed your income and outgoings, savings, and other assets, along with your future goals and requirements, and having taken into account life events such as your retirement and one-off expenses.
-                    </p>
-                </div>
-            </div>
-
+            <h1>Your cashflow forecast</h1>
         </div>
         <div class="w-1/2">
-            <svg class="ml-28 mt-14" width="75%" viewBox="0 0 664 675" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <svg width="664" height="675" viewBox="0 0 664 675" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <circle cx="303.76" cy="370.83" r="303.18" fill="url(#pattern0)"/>
                 <circle cx="303.76" cy="370.83" r="303.18" fill="#D9D9D9"/>
                 <path d="M558.232 0H546.604V221.376H558.232V0Z" fill="#4FA3DE"/>
@@ -356,7 +346,6 @@
                     <image id="image0_40_701" width="64" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAONJREFUeF7t20EOhEAIRFG4/6F7DvEnYeFzryQIv6pBd2behOu9dPvsbog+k+NLgArQAqmJcw9iAAhSgZKB3IJkkAySQTJ4CiE+gA8oBeg0mH3Ai084P89HhqwEqIA209ICsQdjAeaZIgaAYKxBDMCAYy8fXwAIgiAIcoJpJEYGI4VjB3YrbC9gL2AvkCB43cM5PgZgAAZgQFnNZAhdGykQBEEQBEEQDBmgAm2glM/z+QUYisYUGoldO7kY32IEAzCg6RgIRgjFAsw+AgRBMNYgBmCAT2TCYfoPPz/HCqQCX1eBHzHnv7C7WhBSAAAAAElFTkSuQmCC"/>
                 </defs>
             </svg>
-
         </div>
     </div>
 

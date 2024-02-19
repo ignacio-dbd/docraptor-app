@@ -1,0 +1,18 @@
+<svg width="664" height="675" viewBox="0 0 664 675" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<circle cx="303.76" cy="370.83" r="303.18" fill="url(#pattern0)"/>
+<circle cx="303.76" cy="370.83" r="303.18" fill="#D9D9D9"/>
+<path d="M558.232 0H546.604V221.376H558.232V0Z" fill="#4FA3DE"/>
+<path d="M663.103 104.873H441.728V116.502H663.103V104.873Z" fill="#4FA3DE"/>
+<path d="M626.589 28.3286L470.026 184.837L478.247 193.062L634.811 36.5527L626.589 28.3286Z" fill="#4FA3DE"/>
+<path d="M478.26 28.3046L470.037 36.5273L626.573 193.064L634.796 184.841L478.26 28.3046Z" fill="#4FA3DE"/>
+<path d="M589.68 6.30849L504.428 210.61L515.159 215.089L600.411 10.7867L589.68 6.30849Z" fill="#4FA3DE"/>
+<path d="M452.489 62.7059L448.013 73.4385L652.329 158.655L656.806 147.922L452.489 62.7059Z" fill="#4FA3DE"/>
+<path d="M652.569 63.1963L447.839 147.413L452.262 158.167L656.993 73.9506L652.569 63.1963Z" fill="#4FA3DE"/>
+<path d="M515.68 6.10351L504.925 10.5273L589.142 215.258L599.896 210.834L515.68 6.10351Z" fill="#4FA3DE"/>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_40_701" transform="scale(0.015625)"/>
+</pattern>
+<image id="image0_40_701" width="64" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAONJREFUeF7t20EOhEAIRFG4/6F7DvEnYeFzryQIv6pBd2behOu9dPvsbog+k+NLgArQAqmJcw9iAAhSgZKB3IJkkAySQTJ4CiE+gA8oBeg0mH3Ai084P89HhqwEqIA209ICsQdjAeaZIgaAYKxBDMCAYy8fXwAIgiAIcoJpJEYGI4VjB3YrbC9gL2AvkCB43cM5PgZgAAZgQFnNZAhdGykQBEEQBEEQDBmgAm2glM/z+QUYisYUGoldO7kY32IEAzCg6RgIRgjFAsw+AgRBMNYgBmCAT2TCYfoPPz/HCqQCX1eBHzHnv7C7WhBSAAAAAElFTkSuQmCC"/>
+</defs>
+</svg>
