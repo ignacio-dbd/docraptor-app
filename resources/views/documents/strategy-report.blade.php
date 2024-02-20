@@ -107,6 +107,7 @@
     .first-description {
         line-height: 20px;
     }
+    p.small-cashflow { font-size: 10px; line-height: 14px; }
 </style>
 
 
@@ -321,6 +322,7 @@
 </div>
 
 <!-- YOUR STRATEGY -->
+<!-- YOUR CASHFLOW FORECAST -->
 <div class="page" id="your-strategy">
 
     @include('documents.includes.header', ['activeLink' => 'your-strategy'])
@@ -359,6 +361,212 @@
 
         </div>
     </div>
+
+    <div class="page-number"></div>
+    @include('documents.includes.footer', ['previousLink' => '#your-finances', 'nextLink' => '#'])
+</div>
+
+<!-- YOUR STRATEGY -->
+<!-- UNDERSTANDING YOUR CASHFLOW CHARTS V1 -->
+<div class="page" id="your-strategy">
+
+    @include('documents.includes.header', ['activeLink' => 'your-strategy'])
+
+    <div class="flex mt-12">
+        <div class="w-1/2">
+                    <h1 class="mb-8">Understanding your cash flow charts</h1>
+        </div>
+        <div class="w-1/2 pr-16 mt-1">
+            <p class="first-description">
+                We have created a cashflow model to forecast your future finances over the long-term. It shows you how much money you could have in the future and whether you are on track to achieve your goals. We have analysed your income and outgoings, savings, and other assets, along with your future goals and requirements, and having taken into account life events such as your retirement and one-off expenses.
+            </p>
+        </div>
+    </div>
+
+    <div class="clear-both"></div>
+
+    <div class="relative w-full pt-2">
+        <h3 class="line-header">Key definitions</h3>
+    </div>
+
+    <div class="clear-both"></div>
+
+    <div class="flex mt-6">
+        <div class="w-1/3">
+            <div class="flex objective">
+                <div class="objective-icon flex-shrink-0">
+                    <svg class="w-10" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="35.0001" cy="35" r="34.5017" transform="rotate(0.833608 35.0001 35)" fill="#7474C1"/>
+                        <mask id="mask0_40_502" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="16" y="16" width="38" height="38">
+                            <rect x="16.5593" y="16.3335" width="37.3333" height="37.3333" fill="#D9D9D9"/>
+                        </mask>
+                        <g mask="url(#mask0_40_502)">
+                            <path d="M35.1867 45.5782C35.6015 45.5782 35.9191 45.5069 36.1395 45.3643C36.3598 45.2217 36.47 45.0078 36.47 44.7226C36.47 44.4374 36.3598 44.217 36.1395 44.0615C35.9191 43.9059 35.5885 43.8282 35.1478 43.8282C34.0589 43.8282 32.9506 43.4846 31.8228 42.7976C30.695 42.1106 29.9756 40.8985 29.6645 39.1615C29.6126 38.9282 29.4959 38.7402 29.3145 38.5976C29.133 38.455 28.9385 38.3837 28.7311 38.3837C28.4459 38.3837 28.2256 38.4939 28.07 38.7143C27.9145 38.9346 27.8626 39.1615 27.9145 39.3948C28.3033 41.5726 29.2237 43.1476 30.6756 44.1198C32.1274 45.092 33.6311 45.5782 35.1867 45.5782ZM35.2256 50.5559C31.6737 50.5559 28.7117 49.3374 26.3395 46.9004C23.9672 44.4633 22.7811 41.43 22.7811 37.8004C22.7811 35.2078 23.8117 32.3883 25.8728 29.342C27.9339 26.2958 31.0515 22.9967 35.2256 19.4448C39.3996 22.9967 42.5172 26.2958 44.5784 29.342C46.6395 32.3883 47.67 35.2078 47.67 37.8004C47.67 41.43 46.4839 44.4633 44.1117 46.9004C41.7395 49.3374 38.7774 50.5559 35.2256 50.5559ZM35.2256 48.2226C38.1293 48.2226 40.5404 47.2309 42.4589 45.2476C44.3774 43.2643 45.3367 40.7819 45.3367 37.8004C45.3367 35.7522 44.4746 33.4254 42.7506 30.8198C41.0265 28.2143 38.5182 25.4596 35.2256 22.5559C31.933 25.4596 29.4246 28.2143 27.7006 30.8198C25.9765 33.4254 25.1145 35.7522 25.1145 37.8004C25.1145 40.7819 26.0737 43.2643 27.9922 45.2476C29.9108 47.2309 32.3219 48.2226 35.2256 48.2226Z" fill="white"/>
+                        </g>
+                    </svg>
+                </div>
+                <div class="objective-text ml-4 pr-8">
+                    <div class="mt-0 text-sm">
+                        <p class="small-cashflow"><span class="font-bold text-white">Liquid assets</span> - savings and investments that are available at short notice.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-1/3">
+            <div class="flex objective">
+                <div class="objective-icon flex-shrink-0">
+                    <svg class="w-10" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="34.9999" cy="35" r="34.5017" transform="rotate(0.833608 34.9999 35)" fill="#7474C1"/>
+                        <mask id="mask0_40_512" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="16" y="16" width="38" height="38">
+                            <rect x="16.5592" y="16.3335" width="37.3333" height="37.3333" fill="#D9D9D9"/>
+                        </mask>
+                        <g mask="url(#mask0_40_512)">
+                            <path d="M30.1699 29.0114H40.281V25.3947C40.281 23.9169 39.7949 22.6855 38.8227 21.7003C37.8505 20.7151 36.6514 20.2225 35.2255 20.2225C33.7995 20.2225 32.6005 20.7151 31.6282 21.7003C30.656 22.6855 30.1699 23.9169 30.1699 25.3947V29.0114ZM38.2199 50.5558H25.1143C24.518 50.5558 23.9801 50.316 23.5005 49.8364C23.0208 49.3568 22.781 48.8188 22.781 48.2225V31.3447C22.781 30.7484 23.0208 30.2105 23.5005 29.7308C23.9801 29.2512 24.518 29.0114 25.1143 29.0114H27.8366V25.3947C27.8366 23.2947 28.5495 21.5188 29.9755 20.0669C31.4014 18.6151 33.1514 17.8892 35.2255 17.8892C37.2995 17.8892 39.0495 18.6151 40.4755 20.0669C41.9014 21.5188 42.6143 23.2947 42.6143 25.3947V29.0114H45.3366C45.9329 29.0114 46.4708 29.2512 46.9505 29.7308C47.4301 30.2105 47.6699 30.7484 47.6699 31.3447V34.728C47.3329 34.6503 46.9829 34.5984 46.6199 34.5725C46.2569 34.5466 45.8292 34.5336 45.3366 34.5336V31.3447H25.1143V48.2225H36.8199C37.0014 48.6632 37.1958 49.0586 37.4032 49.4086C37.6106 49.7586 37.8829 50.141 38.2199 50.5558ZM45.8421 51.878C43.794 51.878 42.031 51.1392 40.5532 49.6614C39.0755 48.1836 38.3366 46.4206 38.3366 44.3725C38.3366 42.3243 39.0755 40.5614 40.5532 39.0836C42.031 37.6058 43.794 36.8669 45.8421 36.8669C47.8903 36.8669 49.6532 37.6058 51.131 39.0836C52.6088 40.5614 53.3477 42.3243 53.3477 44.3725C53.3477 46.4206 52.6088 48.1836 51.131 49.6614C49.6532 51.1392 47.8903 51.878 45.8421 51.878ZM48.7199 48.3003L49.7699 47.2503L46.5032 44.2947V39.4725H44.8699V44.7527L48.7199 48.3003Z" fill="white"/>
+                        </g>
+                    </svg>
+
+
+                </div>
+                <div class="objective-text ml-4 pr-8">
+
+                    <div class="mt-0 text-sm">
+                        <p class="small-cashflow"> <span class="font-bold text-white">Pension – non accessible </span> - your pensions that you cannot draw from because you have not reached your minimum pension age.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-1/3">
+            <div class="flex objective">
+                <div class="objective-icon flex-shrink-0">
+                    <svg class="w-10" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="35" cy="35" r="34.5017" transform="rotate(0.833608 35 35)" fill="#7474C1"/>
+                        <mask id="mask0_40_527" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="16" y="16" width="38" height="38">
+                            <rect x="16.3317" y="16.3335" width="37.3333" height="37.3333" fill="#D9D9D9"/>
+                        </mask>
+                        <g mask="url(#mask0_40_527)">
+                            <path d="M23.3317 49C22.7095 49 22.1651 48.7667 21.6984 48.3C21.2317 47.8333 20.9984 47.2889 20.9984 46.6667V21H23.3317V46.6667H48.9984V49H23.3317ZM26.2484 43.75V30.7611H30.8762V43.75H26.2484ZM33.9484 43.75V22.75H38.5762V43.75H33.9484ZM41.4929 43.75V37.1389H46.1206V43.75H41.4929Z" fill="white"/>
+                        </g>
+                    </svg>
+                </div>
+                <div class="objective-text ml-4 pr-8">
+                    <div class="mt-0 text-sm">
+                        <p class="small-cashflow"><span class="font-bold text-white">Shortfall</span> - this is when there is a shortfall between your income and expenditure in a year and you have no available investments or pensions to meet the shortfall.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="flex mt-4">
+        <div class="w-1/3">
+            <div class="flex objective">
+                <div class="objective-icon flex-shrink-0">
+                    <svg class="w-10" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="34.9999" cy="35" r="34.5017" transform="rotate(0.833608 34.9999 35)" fill="#7474C1"/>
+                        <mask id="mask0_40_537" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="20" y="20" width="31" height="30">
+                            <rect x="20.4492" y="20.2222" width="29.5556" height="29.5556" fill="#D9D9D9"/>
+                        </mask>
+                        <g mask="url(#mask0_40_537)">
+                            <path d="M35.2264 47.3152C32.4145 47.3152 30.0695 46.3505 28.1915 44.4212C26.3135 42.4919 25.3745 40.0905 25.3745 37.217C25.3745 35.1646 26.1904 32.9325 27.8221 30.5208C29.4538 28.1092 31.9219 25.4974 35.2264 22.6855C38.5308 25.4974 40.9989 28.1092 42.6306 30.5208C44.2624 32.9325 45.0782 35.1646 45.0782 37.217C45.0782 40.0905 44.1392 42.4919 42.2612 44.4212C40.3832 46.3505 38.0382 47.3152 35.2264 47.3152ZM35.2264 45.468C37.5251 45.468 39.4339 44.6829 40.9528 43.1127C42.4716 41.5426 43.231 39.5774 43.231 37.217C43.231 35.5956 42.5485 33.7535 41.1837 31.6908C39.8188 29.628 37.833 27.4473 35.2264 25.1485C32.6197 27.4473 30.634 29.628 29.2691 31.6908C27.9042 33.7535 27.2217 35.5956 27.2217 37.217C27.2217 39.5774 27.9811 41.5426 29.5 43.1127C31.0188 44.6829 32.9276 45.468 35.2264 45.468Z" fill="white"/>
+                        </g>
+                        <circle cx="35.2262" cy="35.0002" r="17.1667" stroke="white" stroke-width="3"/>
+                        <path d="M50.7177 26.0557L19.7332 43.9446" stroke="white" stroke-width="3"/>
+                    </svg>
+                </div>
+                <div class="objective-text ml-4 pr-8">
+                    <div class="mt-0 text-sm">
+                        <p class="small-cashflow"><span class="font-bold text-white">Non-liquid assets</span> - assets which are not always easy to sell or convert to cash quickly. E.g. property, possessions etc.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-1/3">
+            <div class="flex objective">
+                <div class="objective-icon flex-shrink-0">
+                    <svg class="w-10" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="35" cy="35" r="34.5017" transform="rotate(0.833608 35 35)" fill="#7474C1"/>
+                        <mask id="mask0_40_517" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="16" y="16" width="38" height="38">
+                            <rect x="16.5609" y="16.3335" width="37.3333" height="37.3333" fill="#D9D9D9"/>
+                        </mask>
+                        <g mask="url(#mask0_40_517)">
+                            <path d="M37.1727 33.0166L30.795 26.6388L32.4672 24.9666L37.1727 29.711L46.2727 20.6499L47.9061 22.2443L37.1727 33.0166ZM26.4783 45.8888L38.4172 49.3888L48.0616 46.3555C48.0616 45.8369 47.8607 45.4027 47.4589 45.0527C47.057 44.7027 46.5839 44.5277 46.0394 44.5277H37.9116C37.4968 44.5277 37.0885 44.4953 36.6866 44.4305C36.2848 44.3656 35.8894 44.2684 35.5005 44.1388L31.7672 43.011L32.5061 40.6388L36.1616 41.8832C36.4468 41.9869 36.7385 42.0647 37.0366 42.1166C37.3348 42.1684 37.6264 42.1943 37.9116 42.1943H40.0894C40.0894 41.6499 39.9079 41.1768 39.545 40.7749C39.182 40.3731 38.7413 40.0684 38.2227 39.861L29.745 36.6332H26.4783V45.8888ZM18.1172 50.5555V34.2999H29.7061C29.8357 34.2999 29.9718 34.3129 30.1144 34.3388C30.257 34.3647 30.3931 34.4036 30.5227 34.4555L39.0005 37.6443C39.9857 38.0073 40.8218 38.5906 41.5089 39.3943C42.1959 40.1981 42.5394 41.1314 42.5394 42.1943H46.0394C47.3616 42.1943 48.4829 42.674 49.4033 43.6332C50.3237 44.5925 50.7839 45.7332 50.7839 47.0555V48.0666L38.6116 51.7999L26.4783 48.3388V50.5555H18.1172ZM20.4505 48.2221H24.1061V36.6332H20.4505V48.2221Z" fill="white"/>
+                        </g>
+                    </svg>
+
+                </div>
+                <div class="objective-text ml-4 pr-8">
+                    <div class="mt-0 text-sm">
+                        <p class="small-cashflow"><span class="font-bold text-white">Required Withdrawal (Investments)</span> - this is a withdrawal from available liquid assets when there is a shortfall between your income and expenditure in a year.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-1/3">
+            <div class="flex objective">
+                <div class="objective-icon flex-shrink-0">
+                    <svg class="w-10" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="35" cy="35" r="34.5017" transform="rotate(0.833608 35 35)" fill="#7474C1"/>
+                        <mask id="mask0_40_532" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="16" y="16" width="38" height="38">
+                            <rect x="16.5609" y="16.3335" width="37.3333" height="37.3333" fill="#D9D9D9"/>
+                        </mask>
+                        <g mask="url(#mask0_40_532)">
+                            <path d="M25.4772 49.5497V46.4453C26.3418 45.9426 27.0609 45.4201 27.6347 44.8779C28.2085 44.3358 28.6715 43.7868 29.0237 43.2311C29.3759 42.6754 29.6228 42.1137 29.7643 41.5462C29.9057 40.9786 29.9765 40.4108 29.9765 39.8427C29.9765 39.5496 29.9607 39.2585 29.9291 38.9694C29.8976 38.6803 29.8502 38.3891 29.7871 38.0961H25.4772V35.0154H28.2028C27.2503 33.6447 26.6227 32.4323 26.3201 31.3784C26.0174 30.3245 25.8661 29.2694 25.8661 28.2132C25.8661 25.8291 26.6971 23.8061 28.3592 22.144C30.0213 20.4819 32.0444 19.6509 34.4284 19.6509C36.2895 19.6509 37.9482 20.1198 39.4045 21.0576C40.8609 21.9955 41.9351 23.28 42.6273 24.911L39.7849 26.1132C39.3183 25.0548 38.6005 24.2302 37.6317 23.6396C36.6628 23.0489 35.5951 22.7535 34.4284 22.7535C32.9089 22.7535 31.6191 23.2771 30.559 24.3243C29.4988 25.3715 28.9688 26.6678 28.9688 28.2132C28.9688 29.1803 29.1395 30.1537 29.4811 31.1333C29.8226 32.1128 30.6229 33.4069 31.8821 35.0154H38.691V38.0961H32.8847C32.9478 38.3891 32.996 38.6932 33.0293 39.0083C33.0625 39.3233 33.0792 39.6015 33.0792 39.8427C33.0792 41.1142 32.814 42.3169 32.2836 43.4509C31.7533 44.5849 31.0417 45.5909 30.149 46.469H38.3173C39.1999 46.469 39.9951 46.2207 40.703 45.7242C41.4109 45.2277 41.9187 44.3814 42.2265 43.1854L45.0181 44.3284C44.6371 46.0339 43.7905 47.3305 42.4784 48.2182C41.1663 49.1059 39.7793 49.5497 38.3173 49.5497H25.4772Z" fill="white"/>
+                        </g>
+                    </svg>
+                </div>
+                <div class="objective-text ml-4 pr-8">
+                    <div class="mt-0 text-sm">
+                        <p class="small-cashflow"><span class="font-bold text-white">Surplus account</span> - any surplus income (i.e. when your income exceeds your expenditure in a year) is assumed to be saved as cash in this account. This is also the first liquid asset to be drawn from if there is a shortfall.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex mt-4">
+        <div class="w-1/3">
+            <div class="flex objective">
+                <div class="objective-icon flex-shrink-0">
+                    <svg class="w-10" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="34.9999" cy="35" r="34.5017" transform="rotate(0.833608 34.9999 35)" fill="#7474C1"/>
+                        <mask id="mask0_40_507" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="16" y="16" width="38" height="38">
+                            <rect x="16.5592" y="16.3335" width="37.3333" height="37.3333" fill="#D9D9D9"/>
+                        </mask>
+                        <g mask="url(#mask0_40_507)">
+                            <path d="M41.4484 33.4448C41.8892 33.4448 42.2586 33.2958 42.5568 32.9976C42.8549 32.6995 43.004 32.33 43.004 31.8893C43.004 31.4485 42.8549 31.0791 42.5568 30.7809C42.2586 30.4828 41.8892 30.3337 41.4484 30.3337C41.0077 30.3337 40.6382 30.4828 40.3401 30.7809C40.042 31.0791 39.8929 31.4485 39.8929 31.8893C39.8929 32.33 40.042 32.6995 40.3401 32.9976C40.6382 33.2958 41.0077 33.4448 41.4484 33.4448ZM29.004 29.5559H36.7818V27.2226H29.004V29.5559ZM23.5595 49.0004C22.6781 46.0448 21.8095 43.0958 20.954 40.1532C20.0984 37.2106 19.6707 34.1967 19.6707 31.1115C19.6707 28.7263 20.5003 26.7041 22.1595 25.0448C23.8188 23.3856 25.841 22.5559 28.2262 22.5559H36.004C36.7558 21.5708 37.6697 20.8059 38.7457 20.2615C39.8216 19.717 40.9818 19.4448 42.2262 19.4448C42.8744 19.4448 43.4253 19.6717 43.879 20.1254C44.3327 20.5791 44.5595 21.13 44.5595 21.7782C44.5595 21.9337 44.5401 22.0893 44.5012 22.2448C44.4623 22.4004 44.417 22.543 44.3651 22.6726C44.2614 22.9578 44.1642 23.2495 44.0734 23.5476C43.9827 23.8458 43.9114 24.1504 43.8595 24.4615L47.3984 28.0004H50.7818V38.8504L46.3873 40.2893L43.7818 49.0004H35.2262V45.8893H32.1151V49.0004H23.5595ZM25.3095 46.667H29.7818V43.5559H37.5595V46.667H42.0318L44.4818 38.5004L48.4484 37.1393V30.3337H46.4262L41.4484 25.3559C41.4744 24.7078 41.5586 24.0791 41.7012 23.4698C41.8438 22.8606 41.9929 22.2448 42.1484 21.6226C41.1632 21.8819 40.2299 22.2643 39.3484 22.7698C38.467 23.2754 37.7929 23.9819 37.3262 24.8893H28.2262C26.5077 24.8893 25.041 25.4967 23.8262 26.7115C22.6114 27.9263 22.004 29.393 22.004 31.1115C22.004 33.786 22.3799 36.399 23.1318 38.9507C23.8836 41.5023 24.6095 44.0745 25.3095 46.667Z" fill="white"/>
+                        </g>
+                    </svg>
+                </div>
+                <div class="objective-text ml-4 pr-8">
+                    <div class="mt-0 text-sm">
+                        <p class="small-cashflow"><span class="font-bold text-white">Pension (accessible)</span> - your pensions that you can draw from because you have reached your minimum pension age.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-1/3">
+            <div class="flex objective">
+                <div class="objective-icon flex-shrink-0">
+                    <svg class="w-10" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="35" cy="35" r="34.5017" transform="rotate(0.833608 35 35)" fill="#7474C1"/>
+                        <mask id="mask0_40_517" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="16" y="16" width="38" height="38">
+                            <rect x="16.5609" y="16.3335" width="37.3333" height="37.3333" fill="#D9D9D9"/>
+                        </mask>
+                        <g mask="url(#mask0_40_517)">
+                            <path d="M37.1727 33.0166L30.795 26.6388L32.4672 24.9666L37.1727 29.711L46.2727 20.6499L47.9061 22.2443L37.1727 33.0166ZM26.4783 45.8888L38.4172 49.3888L48.0616 46.3555C48.0616 45.8369 47.8607 45.4027 47.4589 45.0527C47.057 44.7027 46.5839 44.5277 46.0394 44.5277H37.9116C37.4968 44.5277 37.0885 44.4953 36.6866 44.4305C36.2848 44.3656 35.8894 44.2684 35.5005 44.1388L31.7672 43.011L32.5061 40.6388L36.1616 41.8832C36.4468 41.9869 36.7385 42.0647 37.0366 42.1166C37.3348 42.1684 37.6264 42.1943 37.9116 42.1943H40.0894C40.0894 41.6499 39.9079 41.1768 39.545 40.7749C39.182 40.3731 38.7413 40.0684 38.2227 39.861L29.745 36.6332H26.4783V45.8888ZM18.1172 50.5555V34.2999H29.7061C29.8357 34.2999 29.9718 34.3129 30.1144 34.3388C30.257 34.3647 30.3931 34.4036 30.5227 34.4555L39.0005 37.6443C39.9857 38.0073 40.8218 38.5906 41.5089 39.3943C42.1959 40.1981 42.5394 41.1314 42.5394 42.1943H46.0394C47.3616 42.1943 48.4829 42.674 49.4033 43.6332C50.3237 44.5925 50.7839 45.7332 50.7839 47.0555V48.0666L38.6116 51.7999L26.4783 48.3388V50.5555H18.1172ZM20.4505 48.2221H24.1061V36.6332H20.4505V48.2221Z" fill="white"/>
+                        </g>
+                    </svg>
+                </div>
+                <div class="objective-text ml-4 pr-8">
+                    <div class="mt-0 text-sm">
+                        <p class="small-cashflow"><span class="font-bold text-white">Required Withdrawal (Pensions)</span> - this is a withdrawal from available pensions when there is a shortfall between your income and expenditure in a year.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <div class="page-number"></div>
     @include('documents.includes.footer', ['previousLink' => '#your-finances', 'nextLink' => '#'])
