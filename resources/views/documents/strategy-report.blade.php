@@ -347,9 +347,7 @@
         </div>
         <div class="w-3/12 mt-4 ml-32 -pr-44">
             <a class="inline learn-more" href="#">Click on a section below to learn more
-
                 <img class="inline w-6" src="https://d3a6n7gvbr88rj.cloudfront.net/adviser-hub/strategy-report/icon-learn-more.svg">
-
             </a>
         </div>
     </div>
@@ -398,14 +396,7 @@
             Click on a section below
             <br>
             to learn more
-            <svg class="inline w-5" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <mask id="mask0_40_1645" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="40" height="40">
-                    <rect width="40" height="40" fill="#D9D9D9"/>
-                </mask>
-                <g mask="url(#mask0_40_1645)">
-                    <path d="M19.4997 30.0007C16.833 29.8618 14.583 28.834 12.7497 26.9173C10.9163 25.0007 9.99967 22.6951 9.99967 20.0007C9.99967 17.2229 10.9719 14.8618 12.9163 12.9173C14.8608 10.9729 17.2219 10.0007 19.9997 10.0007C22.6941 10.0007 24.9997 10.9173 26.9163 12.7507C28.833 14.584 29.8608 16.8432 29.9997 19.5284L27.083 18.6257C26.759 16.9405 25.9441 15.5446 24.6386 14.4382C23.333 13.3317 21.7867 12.7784 19.9997 12.7784C17.9997 12.7784 16.296 13.4821 14.8885 14.8895C13.4811 16.2969 12.7774 18.0007 12.7774 20.0007C12.7774 21.7692 13.3307 23.3108 14.4372 24.6257C15.5436 25.9405 16.9395 26.7599 18.6247 27.084L19.4997 30.0007ZM21.4997 36.584C21.2497 36.621 20.9997 36.6442 20.7497 36.6534C20.4997 36.6627 20.2497 36.6673 19.9997 36.6673C17.6941 36.6673 15.5275 36.2298 13.4997 35.3548C11.4719 34.4798 9.70801 33.2923 8.20801 31.7923C6.70801 30.2923 5.52051 28.5284 4.64551 26.5007C3.77051 24.4729 3.33301 22.3062 3.33301 20.0007C3.33301 17.6951 3.77051 15.5284 4.64551 13.5007C5.52051 11.4729 6.70801 9.70898 8.20801 8.20898C9.70801 6.70898 11.4719 5.52148 13.4997 4.64648C15.5275 3.77148 17.6941 3.33398 19.9997 3.33398C22.3052 3.33398 24.4719 3.77148 26.4997 4.64648C28.5275 5.52148 30.2913 6.70898 31.7913 8.20898C33.2913 9.70898 34.4788 11.4729 35.3538 13.5007C36.2288 15.5284 36.6663 17.6951 36.6663 20.0007C36.6663 20.2507 36.6617 20.5007 36.6525 20.7507C36.6432 21.0007 36.62 21.2507 36.583 21.5007L33.8886 20.6673V20.0007C33.8886 16.1303 32.5414 12.8479 29.8469 10.1534C27.1525 7.45896 23.87 6.11174 19.9997 6.11174C16.1293 6.11174 12.8469 7.45896 10.1524 10.1534C7.45798 12.8479 6.11076 16.1303 6.11076 20.0007C6.11076 23.871 7.45798 27.1534 10.1524 29.8479C12.8469 32.5423 16.1293 33.8896 19.9997 33.8896H20.6663L21.4997 36.584ZM34.208 37.5007L27.083 30.3757L24.9997 36.6673L19.9997 20.0007L36.6663 25.0007L30.3747 27.084L37.4997 34.209L34.208 37.5007Z" fill="white"/>
-                </g>
-            </svg>
+            <img class="inline w-5" src="https://d3a6n7gvbr88rj.cloudfront.net/adviser-hub/strategy-report/icon-learn-more.svg">
         </a>
     </div>
 
@@ -586,24 +577,8 @@
 
         </div>
         <div class="w-1/2">
-            <svg class="ml-28 mt-14" width="75%" viewBox="0 0 664 675" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                <circle cx="303.76" cy="370.83" r="303.18" fill="url(#pattern0)"/>
-                <circle cx="303.76" cy="370.83" r="303.18" fill="#D9D9D9"/>
-                <path d="M558.232 0H546.604V221.376H558.232V0Z" fill="#4FA3DE"/>
-                <path d="M663.103 104.873H441.728V116.502H663.103V104.873Z" fill="#4FA3DE"/>
-                <path d="M626.589 28.3286L470.026 184.837L478.247 193.062L634.811 36.5527L626.589 28.3286Z" fill="#4FA3DE"/>
-                <path d="M478.26 28.3046L470.037 36.5273L626.573 193.064L634.796 184.841L478.26 28.3046Z" fill="#4FA3DE"/>
-                <path d="M589.68 6.30849L504.428 210.61L515.159 215.089L600.411 10.7867L589.68 6.30849Z" fill="#4FA3DE"/>
-                <path d="M452.489 62.7059L448.013 73.4385L652.329 158.655L656.806 147.922L452.489 62.7059Z" fill="#4FA3DE"/>
-                <path d="M652.569 63.1963L447.839 147.413L452.262 158.167L656.993 73.9506L652.569 63.1963Z" fill="#4FA3DE"/>
-                <path d="M515.68 6.10351L504.925 10.5273L589.142 215.258L599.896 210.834L515.68 6.10351Z" fill="#4FA3DE"/>
-                <defs>
-                    <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-                        <use xlink:href="#image0_40_701" transform="scale(0.015625)"/>
-                    </pattern>
-                    <image id="image0_40_701" width="64" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAONJREFUeF7t20EOhEAIRFG4/6F7DvEnYeFzryQIv6pBd2behOu9dPvsbog+k+NLgArQAqmJcw9iAAhSgZKB3IJkkAySQTJ4CiE+gA8oBeg0mH3Ai084P89HhqwEqIA209ICsQdjAeaZIgaAYKxBDMCAYy8fXwAIgiAIcoJpJEYGI4VjB3YrbC9gL2AvkCB43cM5PgZgAAZgQFnNZAhdGykQBEEQBEEQDBmgAm2glM/z+QUYisYUGoldO7kY32IEAzCg6RgIRgjFAsw+AgRBMNYgBmCAT2TCYfoPPz/HCqQCX1eBHzHnv7C7WhBSAAAAAElFTkSuQmCC"/>
-                </defs>
-            </svg>
+
+            <img class="ml-28 mt-14" width="75%" src="https://d3a6n7gvbr88rj.cloudfront.net/adviser-hub/strategy-report/your-cashflow-forecast.svg">
 
         </div>
     </div>
