@@ -165,6 +165,13 @@
     .warning-text {
         font-size: 11px;
     }
+    .next-steps-description {
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .next-steps-presentation-img {
+        width: 250px;
+    }
 </style>
 
 
@@ -733,7 +740,7 @@
 
 <!-- NEXT STEPS -->
 <!-- SUMMARY -->
-<div class="page" id="introduction">
+<div class="page" id="next-steps-summary">
 
     @include('documents.includes.header', ['activeLink' => 'introduction'])
 
@@ -804,37 +811,56 @@
 
         </div>
         <div class="w-1/2">
-            <svg class="ml-28 mt-14 float-right w-3/4" viewBox="0 0 463 480" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <ellipse cx="222.022" cy="230.771" rx="192.856" ry="192.856" transform="rotate(180 222.022 230.771)" fill="#D9D9D9"/>
-                <circle cx="379.878" cy="396.648" r="82.3921" fill="white"/>
-                <circle cx="49.5819" cy="45.9354" r="45.9354" fill="#D9D9D9"/>
-                <path d="M322.277 72.5634L345.492 72.5634L345.492 95.7783L322.277 72.5634Z" fill="#8EC03B"/>
-                <path d="M322.277 49.3495L345.492 49.3495L345.492 72.5645L322.277 49.3495Z" fill="#8EC03B"/>
-                <path d="M322.277 26.1317L345.492 26.1317L345.492 49.3491L322.277 26.1317Z" fill="#8EC03B"/>
-                <path d="M322.277 2.91691L345.492 2.91691L345.492 26.1318L322.277 2.91691Z" fill="#8EC03B"/>
-                <path d="M345.492 72.5639L368.707 72.5639L368.707 95.7788L345.492 72.5639Z" fill="#8EC03B"/>
-                <path d="M345.492 49.3495L368.707 49.3495L368.707 72.5645L345.492 49.3495Z" fill="#8EC03B"/>
-                <path d="M345.492 26.1317L368.707 26.1317L368.707 49.3491L345.492 26.1317Z" fill="#8EC03B"/>
-                <path d="M345.492 2.91691L368.707 2.91691L368.707 26.1318L345.492 2.91691Z" fill="#8EC03B"/>
-                <path d="M368.707 72.5639L391.924 72.5639L391.924 95.7788L368.707 72.5639Z" fill="#8EC03B"/>
-                <path d="M368.707 49.3495L391.924 49.3495L391.924 72.5645L368.707 49.3495Z" fill="#8EC03B"/>
-                <path d="M368.707 26.1317L391.924 26.1317L391.924 49.3491L368.707 26.1317Z" fill="#8EC03B"/>
-                <path d="M368.707 2.91691L391.924 2.91691L391.924 26.1318L368.707 2.91691Z" fill="#8EC03B"/>
-                <path d="M391.925 72.5639L415.14 72.5639L415.14 95.7788L391.925 72.5639Z" fill="#8EC03B"/>
-                <path d="M391.925 49.3495L415.14 49.3495L415.14 72.5645L391.925 49.3495Z" fill="#8EC03B"/>
-                <path d="M391.925 26.1317L415.14 26.1317L415.14 49.3491L391.925 26.1317Z" fill="#8EC03B"/>
-                <path d="M391.925 2.91691L415.14 2.91691L415.14 26.1318L391.925 2.91691Z" fill="#8EC03B"/>
-                <path d="M75.5941 285.091H68.0488V428.731H75.5941V285.091Z" fill="#4FA3DE"/>
-                <path d="M143.639 353.139H0V360.684H143.639V353.139Z" fill="#4FA3DE"/>
-                <path d="M119.947 303.473L18.3613 405.024L23.6957 410.36L125.282 308.809L119.947 303.473Z" fill="#4FA3DE"/>
-                <path d="M23.7044 303.457L18.3691 308.792L119.938 410.361L125.273 405.026L23.7044 303.457Z" fill="#4FA3DE"/>
-                <path d="M95.9973 289.185L40.6816 421.747L47.645 424.652L102.961 292.091L95.9973 289.185Z" fill="#4FA3DE"/>
-                <path d="M6.98064 325.779L4.07617 332.743L136.647 388.036L139.551 381.072L6.98064 325.779Z" fill="#4FA3DE"/>
-                <path d="M136.804 326.096L3.96484 380.74L6.83524 387.718L139.675 333.074L136.804 326.096Z" fill="#4FA3DE"/>
-                <path d="M47.9857 289.051L41.0078 291.922L95.6518 424.761L102.63 421.891L47.9857 289.051Z" fill="#4FA3DE"/>
-            </svg>
+
+            <img class="ml-28 mt-14 float-right w-3/4" src="https://d3a6n7gvbr88rj.cloudfront.net/adviser-hub/strategy-report/summary.svg">
 
         </div>
+    </div>
+
+    @include('documents.includes.footer', ['previousLink' => '#front-cover', 'nextLink' => '#the-my-wealth-service'])
+
+</div>
+
+
+
+<!-- NEXT STEPS -->
+<!-- YOUR OBJECTIVES (VARIABLE CONTENT) -->
+<div class="page" id="next-steps-your-objectives">
+
+    @include('documents.includes.header', ['activeLink' => 'introduction'])
+
+    <div class="flex">
+        <div class="w-2/3 mt-16">
+            <div class="w-full">
+                <h1 class="mb-8">Next steps</h1>
+            </div>
+            <div class="flex">
+                <div class="w-1/2">
+                    <p class="next-steps-description">
+                        In your Advice Report, we will look at your current situation in more detail and will provide recommendations on how to overcome the areas identified previously.
+                        <br><br>
+                        It will demonstrate how a coherent investment strategy can meet your specific objectives and to provide you with peace of mind.
+                        <br><br>
+                        Such an investment strategy should be tailored to your situation, taking into account not only your immediate and longer-term aims and objectives, but also your attitude towards investment risk.
+                    </p>
+                </div>
+                <div class="w-1/2">
+                    <p class="next-steps-description ml-12">
+                        An essential pillar of a successful investment strategy is ongoing planning advice. To ensure essential changes are carried out on your behalf it should be professionally managed on an ongoing basis.
+                        <br><br>
+                        I look forward to presenting my recommendations at our next meeting.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="w-1/3">
+            <img class="ml-28 mt-14 float-right next-steps-presentation-img" src="https://d3a6n7gvbr88rj.cloudfront.net/adviser-hub/strategy-report/your-journey.svg">
+        </div>
+    </div>
+
+
+    <div class="w-full journey-line">
+        <img class="upload-to-s3 w-5/6 mt-6" src="https://d3a6n7gvbr88rj.cloudfront.net/adviser-hub/strategy-report/next-steps-timeline.svg">
     </div>
 
     @include('documents.includes.footer', ['previousLink' => '#front-cover', 'nextLink' => '#the-my-wealth-service'])
