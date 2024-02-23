@@ -860,7 +860,7 @@
 
 
     <div class="w-full journey-line">
-        <img class="upload-to-s3 w-5/6 mt-10 ml-20" src="https://d3a6n7gvbr88rj.cloudfront.net/adviser-hub/strategy-report/next-steps-timeline.svg">
+        <img class="upload-to-s3 w-5/6 mt-14 ml-20" src="https://d3a6n7gvbr88rj.cloudfront.net/adviser-hub/strategy-report/next-steps-timeline.svg">
     </div>
 
     @include('documents.includes.footer', ['previousLink' => '#front-cover', 'nextLink' => '#the-my-wealth-service'])
